@@ -6,10 +6,6 @@
 using namespace std;
 
 void beginnerTest() {
-    int MultipleChoice = 0;
-    int OpenAnswer = 1;
-    srand(static_cast<unsigned int>(time(0)));
-    int randomNumber = rand() % 2;
     const int NUM_QUESTIONS = 50;
     const int NUM_SELECTED = 25;
     string questions[NUM_QUESTIONS] = {
@@ -189,7 +185,7 @@ void beginnerTest() {
     cout << "You will be given " << NUM_SELECTED << " questions.\n";
     cout << "Type your answer and press Enter to move to the next question.\n\n";
 
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < NUM_SELECTED; i++) {
         int qIndex = indices[i];
         cout << "Question " << i + 1 << ":" << " " << questions[qIndex] << endl;
         cout << options[qIndex] << endl;

@@ -5,7 +5,7 @@
 #include <ctime>
 using namespace std;
 
-void BeginnerTest(const string& BeginnerTestDB) {
+void beginnerTest() {
     int MultipleChoice = 0;
     int OpenAnswer = 1;
     srand(static_cast<unsigned int>(time(0)));

@@ -1,8 +1,6 @@
-#ifndef TESTBEGINNER_H
-#define TESTBEGINNER_H
+#pragma once
 #include <string>
 using namespace std;
 
-void BeginnerTest(const string& DB);
+void beginnerTest();
 
-#endif

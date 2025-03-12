@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\Options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\Options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,44 +33,64 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Options.h",
+              "DocumentMoniker": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.h",
+              "RelativeDocumentMoniker": "FluentCheck\\Options.h",
+              "ToolTip": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.h",
+              "RelativeToolTip": "FluentCheck\\Options.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T20:05:52.962Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Options.cpp",
+              "DocumentMoniker": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp",
+              "RelativeDocumentMoniker": "FluentCheck\\Options.cpp",
+              "ToolTip": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp",
+              "RelativeToolTip": "FluentCheck\\Options.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T20:05:31.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "testBeginner.cpp",
               "DocumentMoniker": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\testBeginner.cpp",
               "ToolTip": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp",
               "RelativeToolTip": "FluentCheck\\testBeginner.cpp",
-              "ViewState": "AgIAALgAAAAAAAAAAADwv9IAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-09T19:41:00.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T19:41:00.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "testBeginner.h",
               "DocumentMoniker": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h",
               "RelativeDocumentMoniker": "FluentCheck\\testBeginner.h",
               "ToolTip": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h",
               "RelativeToolTip": "FluentCheck\\testBeginner.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-09T19:40:43.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T19:40:43.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\main.cpp",
               "ToolTip": "C:\\ProjectForSchool2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp",
               "RelativeToolTip": "FluentCheck\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-09T19:39:49.534Z"
             }

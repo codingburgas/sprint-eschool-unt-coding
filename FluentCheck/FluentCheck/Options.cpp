@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include "testBeginner.h"
-#include "Options.h"
+#include "options.h"
 #include "intermediateTest.h"
 
 using namespace std;
@@ -16,13 +16,37 @@ void MainMenu() {
     int mainChoice;
     int testChoice;
 
-    cout << "Main Menu" << endl;
-    cout << "1. Start Test" << endl;
-    cout << "2. View Scores" << endl;
-    cout << "3. Exit" << endl;
-    cout << "(Enter 1 to start a test)" << endl;
-    cout << "(Enter 2 to view the average score, and the top three highest scores achieved)" << endl;
-    cout << "(Enter 3 to exit the program)" << endl;
+    cout << "[@]=========================================================================================================================[@]" << endl;
+    cout << "||   /$$$$$$$$ /$$       /$$   /$$ /$$$$$$$$ /$$   /$$ /$$$$$$$$        /$$$$$$  /$$   /$$ /$$$$$$$$  /$$$$$$  /$$   /$$     ||" << endl;
+    cout << "||  | $$_____/| $$      | $$  | $$| $$_____/| $$$ | $$|__  $$__/       /$$__  $$| $$  | $$| $$_____/ /$$__  $$| $$  /$$/     ||" << endl;
+    cout << "||  | $$      | $$      | $$  | $$| $$      | $$$$| $$   | $$         | $$  \\__/| $$  | $$| $$      | $$  \\__/| $$ /$$/      ||" << endl;
+    cout << "||  | $$$$$   | $$      | $$  | $$| $$$$$   | $$ $$ $$   | $$         | $$      | $$$$$$$$| $$$$$   | $$      | $$$$$/       ||" << endl;
+    cout << "||  | $$__/   | $$      | $$  | $$| $$__/   | $$  $$$$   | $$         | $$      | $$__  $$| $$__/   | $$      | $$  $$       ||" << endl;
+    cout << "||  | $$      | $$      | $$  | $$| $$      | $$\\  $$$   | $$         | $$    $$| $$  | $$| $$      | $$    $$| $$\\  $$      ||" << endl;
+    cout << "||  | $$      | $$$$$$$$|  $$$$$$/| $$$$$$$$| $$ \\  $$   | $$         |  $$$$$$/| $$  | $$| $$$$$$$$|  $$$$$$/| $$ \\  $$     ||" << endl;
+    cout << "||  |__/      |________/ \\______/ |________/|__/  \\__/   |__/          \\______/ |__/  |__/|________/ \\______/ |__/  \\__/     ||" << endl;
+    cout << "[@]=========================================================================================================================[@]" << endl;
+    cout << "-By: UNT | CODING-" << endl;
+
+    cout << endl; //just some blanc spaces 
+    cout << endl; 
+    cout << endl;
+
+    cout << "[@]================================================[@]" << endl;
+    cout << "|           .______________________________.        |" << endl;
+    cout << "|                WELCOME TO fluentCheck             |" << endl;
+    cout << "|           .------------------------------.        |" << endl;
+    cout << "[===================================================]" << endl;
+    cout << "|                .___________________.              |" << endl;
+    cout << "|                  1. Start a Test                  |" << endl;
+    cout << "|                  2. View your scores              |" << endl;
+    cout << "|                  3. Quit                          |" << endl;
+    cout << "|                 .-----------------.               |" << endl;
+    cout << "[===================================================]" << endl;
+    cout << "|          .________________________________.       |" << endl;
+    cout << "|            Please enter your choice (1-3)         |" << endl;
+    cout << "|          .--------------------------------.       |" << endl;
+    cout << "[@]================================================[@]" << endl;
 
     getline(cin, mainChoiceStr);
     mainChoice = stoi(mainChoiceStr);  //converts string to integer to avoid a bug where the test skips a question

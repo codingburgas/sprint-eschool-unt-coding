@@ -21,7 +21,7 @@
     <ClCompile Include="testBeginner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Options.cpp">
+    <ClCompile Include="options.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="intermediateTest.cpp">
@@ -32,7 +32,7 @@
     <ClInclude Include="testBeginner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Options.h">
+    <ClInclude Include="options.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="intermediateTest.h">

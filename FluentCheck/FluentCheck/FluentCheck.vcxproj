@@ -130,11 +130,13 @@
     <ClCompile Include="intermediateTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="options.cpp" />
+    <ClCompile Include="scores.cpp" />
     <ClCompile Include="testBeginner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="intermediateTest.h" />
     <ClInclude Include="options.h" />
+    <ClInclude Include="scores.h" />
     <ClInclude Include="testBeginner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

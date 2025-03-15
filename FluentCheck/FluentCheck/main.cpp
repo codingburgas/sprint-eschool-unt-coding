@@ -11,9 +11,15 @@ int main() {
     int scores[100], count;
     int topScores[3];
 
+    // Process BeginnerTestDB
     readScores("BeginnerTestDB.txt", scores, count);
     findTopScores(scores, count, topScores);
-    displayTopScores(topScores);
+    displayTopScoresBeginner(topScores);
+
+    // Process IntermediateTestDB
+    readScores("IntermediateTestDB.txt", scores, count);
+    findTopScores(scores, count, topScores);
+    displayTopScoresIntermediate(topScores);
 
     return 0;
 }

@@ -7,6 +7,7 @@ using namespace std;
 
 void readScores(const string& filename, int scores[], int& count);
 void findTopScores(int scores[], int count, int topScores[]);
-void displayTopScores(int topScores[]);
+void displayTopScoresBeginner(int topScores[]);
+void displayTopScoresIntermediate(int topScores[]);
 
 #endif

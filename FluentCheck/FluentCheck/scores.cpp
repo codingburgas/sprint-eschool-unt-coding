@@ -5,7 +5,7 @@
 void readScores(const string& filename, int scores[], int& count) {
     ifstream file(filename);
     if (!file) {
-        cout << "Error: Could not open the file!" << endl;
+        cout << "Error: Could not open " << filename << "!" << endl;
         return;
     }
 
@@ -38,9 +38,10 @@ void findTopScores(int scores[], int count, int topScores[]) {
     }
 }
 
-void displayTopScores(int topScores[]) {
-    cout << "Top 3 Scores:" << endl;
+void displayTopScores(const string& testName, int topScores[]) {
+    cout << "Top 3 Scores for " << testName << ":" << endl;
     for (int i = 0; i < 3; i++) {
         cout << i + 1 << ". " << topScores[i] << endl;
     }
+    cout << endl;
 }

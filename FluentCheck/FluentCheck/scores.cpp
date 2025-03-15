@@ -10,7 +10,7 @@ void readScores(const string& filename, int scores[], int& count) {
     }
 
     count = 0;
-    while (file >> scores[count] && count < 100) { // Limit to 100 scores max
+    while (file >> scores[count] && count < INT_MAX) {
         count++;
     }
 
@@ -38,10 +38,18 @@ void findTopScores(int scores[], int count, int topScores[]) {
     }
 }
 
-void displayTopScores(const string& testName, int topScores[]) {
-    cout << "Top 3 Scores for " << testName << ":" << endl;
+void displayTopScoresBeginner(int topScores[]) {
+    cout << "Top 3 Scores for Beginner Test:" << endl;
     for (int i = 0; i < 3; i++) {
-        cout << i + 1 << ". " << topScores[i] << endl;
+        cout << i + 1 << ". " << topScores[i] << " Points" << endl;
+    }
+    cout << endl;
+}
+
+void displayTopScoresIntermediate(int topScores[]) {
+    cout << "Top 3 Scores for Intermediate Test:" << endl;
+    for (int i = 0; i < 3; i++) {
+        cout << i + 1 << ". " << topScores[i] << " Points" << endl;
     }
     cout << endl;
 }

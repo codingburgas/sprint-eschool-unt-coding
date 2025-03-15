@@ -3,6 +3,7 @@
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
+#include "scores.h"
 using namespace std;
 
 bool requiresMultipleChoice(string question) {
@@ -205,7 +206,7 @@ void intermediateTest() {
     cout << "You will be given " << NUM_SELECTED << " questions.\n";
     cout << "Type your answer and press Enter to move to the next question.\n\n";
 
-    for (int i = 0; i < 3; i++) { // currently 3 for debugging purposes, will become NUM_SELECTED for the full test
+    for (int i = 0; i < NUM_SELECTED; i++) { // currently 3 for debugging purposes, will become NUM_SELECTED for the full test
         int index = indices[i];
         int questionType = rand() % 2 + 1;
         if (requiresMultipleChoice(questions[index])) {
@@ -230,7 +231,9 @@ void intermediateTest() {
         }
     }
 
-    cout << "\nQuiz complete! Your final score: " << score << " out of " << 3 << endl;
+    int grade = getBulgarianGrade(score);
+
+    cout << "Quiz complete! Your final score is " << score << " or " << grade << " out of" << NUM_SELECTED << "." << endl;
 
     ofstream outFile("IntermediateTestDB.txt", ios::app);
     outFile << score << endl;

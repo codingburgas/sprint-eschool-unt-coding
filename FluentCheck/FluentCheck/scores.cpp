@@ -2,6 +2,25 @@
 #include <iostream>
 #include <fstream>
 
+
+int getBulgarianGrade(int points) {
+    if (points < 10) {
+        return 2;
+    }
+    else if (points < 13) {
+        return 3;
+    }
+    else if (points < 17) {
+        return 4;
+    }
+    else if (points < 21) {
+        return 5;
+    }
+    else {
+        return 6;
+    }
+}
+
 void readScores(const string& filename, int scores[], int& count) {
     ifstream file(filename);
     if (!file) {
@@ -38,18 +57,47 @@ void findTopScores(int scores[], int count, int topScores[]) {
     }
 }
 
-void displayTopScoresBeginner(int topScores[]) {
+void displayTopScoresBeginner() {
+    int scores[100], count;
+    int topScores[3];
+    readScores("BeginnerTestDB.txt", scores, count);
+    findTopScores(scores, count, topScores);
     cout << "Top 3 Scores for Beginner Test:" << endl;
     for (int i = 0; i < 3; i++) {
-        cout << i + 1 << ". " << topScores[i] << " Points" << endl;
+        int grade = getBulgarianGrade(topScores[i]);
+        cout << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << endl;
     }
     cout << endl;
 }
 
-void displayTopScoresIntermediate(int topScores[]) {
+void displayTopScoresIntermediate() {
+    int scores[100], count;
+    int topScores[3];
+    readScores("intermediateTestDB.txt", scores, count);
+    findTopScores(scores, count, topScores);
     cout << "Top 3 Scores for Intermediate Test:" << endl;
     for (int i = 0; i < 3; i++) {
-        cout << i + 1 << ". " << topScores[i] << " Points" << endl;
+        int grade = getBulgarianGrade(topScores[i]);
+        cout << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << endl;
     }
     cout << endl;
+}
+
+void displayTopScoresAdvanced() {
+    int scores[100], count;
+    int topScores[3];
+    readScores("advancedTestDB.txt", scores, count);
+    findTopScores(scores, count, topScores);;
+    cout << "Top 3 Scores for Advanced Test:" << endl;
+    for (int i = 0; i < 3; i++) {
+        int grade = getBulgarianGrade(topScores[i]);
+        cout << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << endl;
+    }
+    cout << endl;
+}
+
+void displayAllScores() {
+    displayTopScoresBeginner();
+    displayTopScoresIntermediate();
+    displayTopScoresAdvanced();
 }

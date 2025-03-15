@@ -3,6 +3,7 @@
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
+#include "scores.h"
 using namespace std;
 
 void beginnerTest() {
@@ -184,7 +185,7 @@ void beginnerTest() {
     cout << "Welcome to the English Quiz!\n";
     cout << "You will be given " << NUM_SELECTED << " questions.\n";
     cout << "Type your answer and press Enter to move to the next question.\n\n";
-
+    
     for (int i = 0; i < NUM_SELECTED; i++) {
         int qIndex = indices[i];
         cout << "Question " << i + 1 << ":" << " " << questions[qIndex] << endl;
@@ -198,13 +199,12 @@ void beginnerTest() {
         cout << "\n--------------------------\n\n";
     }
 
-    cout << "Quiz complete! Your score: " << score << " out of " << NUM_SELECTED << endl;
+    int grade = getBulgarianGrade(score);
+
+    cout << "Quiz complete! Your final score is " << score << " or " << grade << " out of" << NUM_SELECTED << "." << endl;
 
     ofstream outFile("BeginnerTestDB.txt", ios::app);
-
-    if (!outFile) {
-        cerr << "Error opening BeginnerTestDB.txt for writing.\n";
-    }
+    ofstream outFile2("BeginnerTestNamesDB.txt", ios::app);
 
     outFile << score << endl;
 

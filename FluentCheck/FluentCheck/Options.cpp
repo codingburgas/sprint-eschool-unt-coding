@@ -3,6 +3,8 @@
 #include "testBeginner.h"
 #include "options.h"
 #include "intermediateTest.h"
+#include "advancedTest.h"
+#include "scores.h"
 
 using namespace std;
 
@@ -83,7 +85,7 @@ void MainMenu() {
         }
         else if (testChoice == 3) {
             clearConsole();
-            // advancedTest();
+            advancedTest();
         }
         else {
             cout << "Invalid choice." << endl;
@@ -92,7 +94,7 @@ void MainMenu() {
 
     case 2:
         cout << "\nScores: " << endl;
-        //code for viewing scores for beginner, intermediate, advanced test goes here
+        displayAllScores();
         break;
 
     case 3:

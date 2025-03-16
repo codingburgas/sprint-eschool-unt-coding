@@ -62,11 +62,16 @@ void displayTopScoresBeginner() {
     int topScores[3];
     readScores("BeginnerTestDB.txt", scores, count);
     findTopScores(scores, count, topScores);
-    cout << "Top 3 Scores for Beginner Test:" << endl;
+    cout << "                                                                                                 [@]==============================================[@]" << endl;
+    cout << "                                                                                                 ||       ._______________________________.        ||" << endl;
+    cout << "                                                                                                 ||        Top 3 Scores for Beginner Test:         ||" << endl;
+    cout << "                                                                                                 ||      .---------------------------------.       ||" << endl;
     for (int i = 0; i < 3; i++) {
         int grade = getBulgarianGrade(topScores[i]);
-        cout << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << endl;
+        cout << "                                                                                                 ||        " << i + 1 << ". " << topScores[i] << "  Points or a " << grade << " in Bulgaria" << "         ||" << endl;
     }
+    cout << "                                                                                                 ||         ----------------------------           ||" << endl;
+    cout << "                                                                                                 [@]==============================================[@]" << endl; 
     cout << endl;
 }
 
@@ -75,11 +80,16 @@ void displayTopScoresIntermediate() {
     int topScores[3];
     readScores("intermediateTestDB.txt", scores, count);
     findTopScores(scores, count, topScores);
-    cout << "Top 3 Scores for Intermediate Test:" << endl;
+    cout << "                                                                                                 [@]==============================================[@]" << endl;
+    cout << "                                                                                                 ||       ._______________________________.        ||" << endl;
+    cout << "                                                                                                 ||      Top 3 Scores for Intermediate Test:       ||" << endl;
+    cout << "                                                                                                 ||      .---------------------------------.       ||" << endl;
     for (int i = 0; i < 3; i++) {
         int grade = getBulgarianGrade(topScores[i]);
-        cout << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << endl;
+        cout << "                                                                                                 ||        " << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << "          ||" << endl;
     }
+    cout << "                                                                                                 ||         ----------------------------           ||" << endl;
+    cout << "                                                                                                 [@]==============================================[@]" << endl;
     cout << endl;
 }
 
@@ -87,12 +97,17 @@ void displayTopScoresAdvanced() {
     int scores[100], count;
     int topScores[3];
     readScores("advancedTestDB.txt", scores, count);
-    findTopScores(scores, count, topScores);;
-    cout << "Top 3 Scores for Advanced Test:" << endl;
+    findTopScores(scores, count, topScores);
+    cout << "                                                                                                 [@]==============================================[@]" << endl;
+    cout << "                                                                                                 ||       ._______________________________.        ||" << endl;
+    cout << "                                                                                                 ||        Top 3 Scores for Advanced Test:         ||" << endl;
+    cout << "                                                                                                 ||      .---------------------------------.       ||" << endl;
     for (int i = 0; i < 3; i++) {
         int grade = getBulgarianGrade(topScores[i]);
-        cout << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << endl;
+        cout << "                                                                                                 ||        " << i + 1 << ". " << topScores[i] << " Points or a " << grade << " in Bulgaria" << "          ||" << endl;
     }
+    cout << "                                                                                                 ||         ----------------------------           ||" << endl;
+    cout << "                                                                                                 [@]==============================================[@]" << endl;
     cout << endl;
 }
 

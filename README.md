@@ -21,7 +21,7 @@
 <h2 id="about-the-project">About The Project</h2>
     
 <p align="justify">
-Our project is a game made by using C++ programming language, it is a hangman-like game but instead of guessing any ordinary words you have to guess a math term.
+Our project is a testing program made with C++. It's purpose is to test your English knowledge and enhance your English writing and speaking abilities.
 </p>
     
     

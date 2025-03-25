@@ -6,6 +6,7 @@
 #include "scores.h"
 using namespace std;
 
+// Function to determine if a question requires multiple-choice options 
 bool requiresMultipleChoice(string question) {
 
     if (question.find("Which is spelled correctly") != string::npos) {
@@ -26,7 +27,7 @@ bool requiresMultipleChoice(string question) {
     }
     return false;
 }
-
+// Function to conduct an intermediate-level English test
 void intermediateTest() {
     const int NUM_QUESTIONS = 50;
     const int NUM_SELECTED = 25;
@@ -188,10 +189,12 @@ void intermediateTest() {
         "apologize",            // 49
         "need"                  // 50
     };
-    int indices[NUM_QUESTIONS];
+    int indices[NUM_QUESTIONS]; // Array to store randomized question indices
+    // Initialize indices array
     for (int i = 0; i < NUM_QUESTIONS; i++) {
         indices[i] = i;
     }
+    // Shuffle question indices to randomize the test
     for (int i = NUM_QUESTIONS - 1; i > 0; i--) {
         int j = rand() % (i + 1);
         int temp = indices[i];
@@ -206,7 +209,7 @@ void intermediateTest() {
     cout << "You will be given " << NUM_SELECTED << " questions.\n";
     cout << "Type your answer and press Enter to move to the next question.\n\n";
 
-    for (int i = 0; i < NUM_SELECTED; i++) { // currently 3 for debugging purposes, will become NUM_SELECTED for the full test
+    for (int i = 0; i < NUM_SELECTED; i++) { // Loop through selected questions
         int index = indices[i];
         int questionType = rand() % 2 + 1;
         if (requiresMultipleChoice(questions[index])) {
@@ -225,16 +228,17 @@ void intermediateTest() {
             cout << "Please type your answer below: ";
             getline(cin, userAnswer);
         }
-
+        // Check if the user's answer is correct
         if (userAnswer == answers[index]) {
-            score++;
+            score++; // Increase the score bigger with one point
         }
     }
-
-    int grade = getBulgarianGrade(score);
+     
+    int grade = getBulgarianGrade(score); // Get the Bulgarian grading equivalent for the final score
 
     cout << "Quiz complete! Your final score is " << score << " out of" << NUM_SELECTED << " or " << grade << "." << endl;
 
+    // Open file in append mode to store user scores
     ofstream outFile("IntermediateTestDB.txt", ios::app);
     outFile << score << endl;
     outFile.close();

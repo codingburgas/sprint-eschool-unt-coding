@@ -7,8 +7,8 @@
 using namespace std;
 
 void beginnerTest() {
-    const int NUM_QUESTIONS = 50;
-    const int NUM_SELECTED = 25;
+    const int NUM_QUESTIONS = 50; // Total number of questions available
+    const int NUM_SELECTED = 25; // Half of the question will be chosen randomly for the test
     string questions[NUM_QUESTIONS] = {
         "Fill in the blank: I ______ a student.",
         "Which word is spelled correctly ? ",
@@ -165,7 +165,7 @@ void beginnerTest() {
         "am",
         "vacuum"
     };
-    int indices[NUM_QUESTIONS];
+    int indices[NUM_QUESTIONS]; // Array to store randomized question indices
     for (int i = 0; i < NUM_QUESTIONS; i++) {
         indices[i] = i;
     }
@@ -186,6 +186,7 @@ void beginnerTest() {
     cout << "You will be given " << NUM_SELECTED << " questions.\n";
     cout << "Type your answer and press Enter to move to the next question.\n\n";
     
+    // Loop through the randomly selected questions
     for (int i = 0; i < NUM_SELECTED; i++) {
         int qIndex = indices[i];
         cout << "Question " << i + 1 << ":" << " " << questions[qIndex] << endl;
@@ -193,16 +194,18 @@ void beginnerTest() {
         cout << "Your answer (enter the word and NOT a, b, c): ";
         getline(cin, userInput);
 
+        // Check if the answer is correct
         if (userInput == answers[qIndex]) {
-            score++;
+            score++; // Increase the score bigger with one point
         }
         cout << "\n--------------------------\n\n";
     }
 
-    int grade = getBulgarianGrade(score);
+    int grade = getBulgarianGrade(score); // Get the Bulgarian grading equivalent for the final score
 
     cout << "Quiz complete! Your final score is " << score << " or " << grade << " out of" << NUM_SELECTED << "." << endl;
 
+    // Open file in append mode to store user scores
     ofstream outFile("BeginnerTestDB.txt", ios::app);
     ofstream outFile2("BeginnerTestNamesDB.txt", ios::app);
 

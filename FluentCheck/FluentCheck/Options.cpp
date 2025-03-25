@@ -97,6 +97,7 @@ void MainMenu() {
         getline(cin, testChoiceStr);
         testChoice = stoi(testChoiceStr);
 
+        // Run the selected test   
         if (testChoice == 1) {
             clearConsole();
             beginnerTest();
@@ -115,7 +116,7 @@ void MainMenu() {
         break;
 
     case 2:
-        displayAllScores();
+        displayAllScores(); // Call function to display user scores
         break;
 
     case 3:

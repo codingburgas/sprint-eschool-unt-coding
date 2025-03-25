@@ -6,8 +6,8 @@
 using namespace std;
 
 void advancedTest() {
-    const int NUM_QUESTIONS = 50;
-    const int NUM_SELECTED = 25;
+    const int NUM_QUESTIONS = 50; // Total questions available
+    const int NUM_SELECTED = 25; // Half of the question will be chosen randomly for the test
 
     string advancedExercises[NUM_QUESTIONS] = {
       "Transform the sentence into the passive voice: 'The committee will announce the results tomorrow.'",
@@ -115,13 +115,14 @@ void advancedTest() {
         "He went to bed early because he was tired."
     };
 
-    int indices[NUM_QUESTIONS];
+    int indices[NUM_QUESTIONS]; // Array to store randomized question indices
     for (int i = 0; i < NUM_QUESTIONS; i++) {
         indices[i] = i;
     }
 
-    srand(static_cast<unsigned>(time(0)));
+    srand(static_cast<unsigned>(time(0))); // Random number generator
 
+    // Shuffle question indices to randomize the test
     for (int i = NUM_QUESTIONS - 1; i > 0; i--) {
         int j = rand() % (i + 1);
         int temp = indices[i];
@@ -129,7 +130,7 @@ void advancedTest() {
         indices[j] = temp;
     }
 
-    int score = 0;
+    int score = 0; // Variable to keep track of the user's score
     string userAnswer;
 
     cout << "Welcome to the Advanced English Quiz!\n";
@@ -137,23 +138,25 @@ void advancedTest() {
     cout << "You will be given " << NUM_SELECTED << " questions.\n";
     cout << "Type your answer and press Enter to move to the next question.\n\n";
 
+    // Ask questions
     for (int i = 0; i < NUM_SELECTED; i++) {
         int index = indices[i];
         cout << "Question " << (i + 1) << ": " << advancedExercises[index] << endl;
         cout << "Your answer: ";
         getline(cin, userAnswer);
 
-
+        // Check if the answer is correct
         if (userAnswer == advancedAnswers[index]) {
-            score++;
+            score++; // Increase the score bigger with one point
         }
         cout << endl;
     }
 
-    int grade = getBulgarianGrade(score);
+    int grade = getBulgarianGrade(score); // Get the Bulgarian grading equivalent for the final score
 
     cout << "Quiz complete! Your final score is " << score << " or " << grade << " out of" << NUM_SELECTED << "." << endl;
 
+    // Open file in append mode to store user scores
     ofstream outFile("advancedTestDB.txt", ios::app);
     outFile << score << endl;
     outFile.close();

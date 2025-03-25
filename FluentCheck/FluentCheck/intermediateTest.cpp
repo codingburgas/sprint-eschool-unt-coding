@@ -202,7 +202,7 @@ void intermediateTest() {
         indices[j] = temp;
     }
 
-    srand((unsigned)time(0));
+    srand(int(time(0)));
     int score = 0;
 
     cout << "Welcome to the intermediate English Quiz!\n";
@@ -236,7 +236,7 @@ void intermediateTest() {
      
     int grade = getBulgarianGrade(score); // Get the Bulgarian grading equivalent for the final score
 
-    cout << "Quiz complete! Your final score is " << score << " out of" << NUM_SELECTED << " or " << grade << "." << endl;
+    cout << "Quiz complete! Your final score is " << score << " out of " << NUM_SELECTED << " or " << grade << "." << endl;
 
     // Open file in append mode to store user scores
     ofstream outFile("IntermediateTestDB.txt", ios::app);

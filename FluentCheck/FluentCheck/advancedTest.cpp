@@ -120,7 +120,7 @@ void advancedTest() {
         indices[i] = i;
     }
 
-    srand(static_cast<unsigned>(time(0))); // Random number generator
+    srand(int(time(0))); // Random number generator
 
     // Shuffle question indices to randomize the test
     for (int i = NUM_QUESTIONS - 1; i > 0; i--) {

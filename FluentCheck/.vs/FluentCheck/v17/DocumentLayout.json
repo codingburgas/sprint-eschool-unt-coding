@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\",
+  "WorkspaceRootPath": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\scores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\Options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\intermediateTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\advancedTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\scores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\advancedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\intermediateTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\advancedTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\intermediateTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\advancedTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\options.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\scores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\Options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\testBeginner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6358F853-8E24-45FE-9593-A12DEB844EAB}|FluentCheck\\FluentCheck.vcxproj|solutionrelative:FluentCheck\\scores.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,31 +54,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "options.h",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\options.h",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\options.h",
               "RelativeDocumentMoniker": "FluentCheck\\options.h",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\options.h",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\options.h",
               "RelativeToolTip": "FluentCheck\\options.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-11T20:05:52.962Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "options.cpp",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\Options.cpp",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\Options.cpp",
               "RelativeToolTip": "FluentCheck\\Options.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAHYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-11T20:05:31.674Z",
               "IsPinned": true,
@@ -86,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "scores.cpp",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.cpp",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\scores.cpp",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.cpp",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.cpp",
               "RelativeToolTip": "FluentCheck\\scores.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAADAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAHQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T12:47:18.7Z",
               "IsPinned": true,
@@ -100,59 +99,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\main.cpp",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\main.cpp",
               "RelativeToolTip": "FluentCheck\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-09T19:39:49.534Z"
+              "WhenOpened": "2025-03-09T19:39:49.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "intermediateTest.cpp",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.cpp",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\intermediateTest.cpp",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.cpp",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.cpp",
               "RelativeToolTip": "FluentCheck\\intermediateTest.cpp",
-              "ViewState": "AgIAALcAAAAAAAAAAAAAAOgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAMEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-12T19:42:44.215Z"
+              "WhenOpened": "2025-03-12T19:42:44.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "advancedTest.cpp",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.cpp",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\advancedTest.cpp",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.cpp",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.cpp",
               "RelativeToolTip": "FluentCheck\\advancedTest.cpp",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-15T16:23:23.812Z"
+              "WhenOpened": "2025-03-15T16:23:23.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "testBeginner.cpp",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp",
               "RelativeDocumentMoniker": "FluentCheck\\testBeginner.cpp",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.cpp",
               "RelativeToolTip": "FluentCheck\\testBeginner.cpp",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAAKwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAKMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-09T19:41:00.383Z"
+              "WhenOpened": "2025-03-09T19:41:00.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "scores.h",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.h",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.h",
               "RelativeDocumentMoniker": "FluentCheck\\scores.h",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.h",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\scores.h",
               "RelativeToolTip": "FluentCheck\\scores.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -160,40 +163,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "advancedTest.h",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.h",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.h",
               "RelativeDocumentMoniker": "FluentCheck\\advancedTest.h",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.h",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\advancedTest.h",
               "RelativeToolTip": "FluentCheck\\advancedTest.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-15T16:42:04.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "intermediateTest.h",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.h",
-              "RelativeDocumentMoniker": "FluentCheck\\intermediateTest.h",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.h",
-              "RelativeToolTip": "FluentCheck\\intermediateTest.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-12T19:42:57.247Z"
+              "WhenOpened": "2025-03-15T16:42:04.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "intermediateTest.h",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.h",
+              "RelativeDocumentMoniker": "FluentCheck\\intermediateTest.h",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\intermediateTest.h",
+              "RelativeToolTip": "FluentCheck\\intermediateTest.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T19:42:57.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "testBeginner.h",
-              "DocumentMoniker": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h",
+              "DocumentMoniker": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h",
               "RelativeDocumentMoniker": "FluentCheck\\testBeginner.h",
-              "ToolTip": "C:\\Users\\mitkomeshkov\\Documents\\proekt2\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h",
+              "ToolTip": "C:\\LOL\\sprint-eschool-unt-coding\\FluentCheck\\FluentCheck\\testBeginner.h",
               "RelativeToolTip": "FluentCheck\\testBeginner.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-09T19:40:43.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T19:40:43.237Z"
             }
           ]
         }

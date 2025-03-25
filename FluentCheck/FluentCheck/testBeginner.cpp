@@ -170,7 +170,7 @@ void beginnerTest() {
         indices[i] = i;
     }
 
-    srand((int)time(0));
+    srand(int(time(0)));
 
     for (int i = NUM_QUESTIONS - 1; i > 0; i--) {
         int j = rand() % (i + 1);
@@ -207,7 +207,6 @@ void beginnerTest() {
 
     // Open file in append mode to store user scores
     ofstream outFile("BeginnerTestDB.txt", ios::app);
-    ofstream outFile2("BeginnerTestNamesDB.txt", ios::app);
 
     outFile << score << endl;
 

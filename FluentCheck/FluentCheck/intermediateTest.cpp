@@ -85,12 +85,12 @@ void intermediateTest() {
     };
 
     string options[NUM_QUESTIONS] = {
-        "a) finished \nb) finishing \nc) have finished", // 1
-        "a) help \nb) helping \nc) to help", //2
-        "a) would have prepared \nb) will prepare \nc) prepared", // 3
-        "a) They suggested me to call \nb) They suggested that I call \nc) They suggested me that I call", // 4
-        "a) travel \nb) traveling \nc) travels", // 5
-        "a) sound \nb) sounds \nc) is sounding", // 6
+        "a) finished \n                                 b) finishing \nc) have finished", // 1
+        "a) help \n                               b) helping \nc) to help", //2
+        "a) would have prepared \n                     b) will prepare \nc) prepared", // 3
+        "a) They suggested me to call \n                        b) They suggested that I call \nc) They suggested me that I call", // 4
+        "a) travel \n                     b) traveling \n             c) travels", // 5
+        "a) sound \n                       b) sounds \nc) is sounding", // 6
         "a) Your application will be reviewed next week by the manager. \nb) Your application next week is reviewed by the manager. \nc) The manager will your application be reviewed next week.", // 7
         "a) therefore \nb) however \nc) in contrast", // 8
         "a) will complete \nb) will have completed \nc) are completing", // 9

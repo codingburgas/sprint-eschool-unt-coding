@@ -195,7 +195,10 @@
         cout << "                                                                                      ||                       You will be given " << NUM_SELECTED << " questions.                  ||\n";
         cout << "                                                                                      ||       Type your answer and press Enter to move to the next question.   ||\n";
         cout << "                                                                                      ||               .------------------------------------------.             ||\n";
-        cout << "                                                                                      [@]======================================================================[@]\n\n";
+        cout << "                                                                                      [@]======================================================================[@]\n";
+
+        cout << endl; //just some spacing between the Q&A and the welcoming sign
+        cout << endl;
 
         // Display questions
         for (int i = 0; i < NUM_SELECTED; i++) {
@@ -226,6 +229,9 @@
         int grade = getBulgarianGrade(score);
         string formattedScore = (score < 10) ? " " + to_string(score) : to_string(score);
         string formattedGrade = (grade < 10) ? " " + to_string(grade) : to_string(grade);
+
+        cout << endl; //just some spacing between the Q&A and the score sign
+        cout << endl;
 
         cout << "                                                                                      [@]======================================================================[@]\n";
         cout << "                                                                                      ||               .___________________________________________.            ||\n";

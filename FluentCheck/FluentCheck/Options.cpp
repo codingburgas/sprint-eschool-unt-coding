@@ -5,8 +5,15 @@
 #include "intermediateTest.h"
 #include "advancedTest.h"
 #include "scores.h"
+#include <conio.h>
+#include <Windows.h>
 
 using namespace std;
+
+void setColor(int textColor) {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(hConsole, textColor);
+}
 
 void clearConsole() {
     system("cls");  // cls clears the screen
@@ -18,32 +25,39 @@ void MainMenu() {
     int mainChoice;
     int testChoice;
 
+    setColor(15);
     cout << "                                                             [@]=========================================================================================================================[@]" << endl;
     cout << "                                                             ||   /$$$$$$$$ /$$       /$$   /$$ /$$$$$$$$ /$$   /$$ /$$$$$$$$        /$$$$$$  /$$   /$$ /$$$$$$$$  /$$$$$$  /$$   /$$     ||" << endl;
     cout << "                                                             ||  | $$_____/| $$      | $$  | $$| $$_____/| $$$ | $$|__  $$__/       /$$__  $$| $$  | $$| $$_____/ /$$__  $$| $$  /$$/     ||" << endl;
+    setColor(2);
     cout << "                                                             ||  | $$      | $$      | $$  | $$| $$      | $$$$| $$   | $$         | $$  \\__/| $$  | $$| $$      | $$  \\__/| $$ /$$/      ||" << endl;
     cout << "                                                             ||  | $$$$$   | $$      | $$  | $$| $$$$$   | $$ $$ $$   | $$         | $$      | $$$$$$$$| $$$$$   | $$      | $$$$$/       ||" << endl;
     cout << "                                                             ||  | $$__/   | $$      | $$  | $$| $$__/   | $$  $$$$   | $$         | $$      | $$__  $$| $$__/   | $$      | $$  $$       ||" << endl;
     cout << "                                                             ||  | $$      | $$      | $$  | $$| $$      | $$\\  $$$   | $$         | $$    $$| $$  | $$| $$      | $$    $$| $$\\  $$      ||" << endl;
+    setColor(4);
     cout << "                                                             ||  | $$      | $$$$$$$$|  $$$$$$/| $$$$$$$$| $$ \\  $$   | $$         |  $$$$$$/| $$  | $$| $$$$$$$$|  $$$$$$/| $$ \\  $$     ||" << endl;
     cout << "                                                             ||  |__/      |________/ \\______/ |________/|__/  \\__/   |__/          \\______/ |__/  |__/|________/ \\______/ |__/  \\__/     ||" << endl;
     cout << "                                                             [@]=========================================================================================================================[@]" << endl;
+    setColor(15);
     cout << "                                                              -By: UNT | CODING-" << endl;
 
     cout << endl; //just some blanc spaces 
     cout << endl; 
     cout << endl;
 
+    setColor(15);
     cout << "                                                                                                 [@]=================================================[@]" << endl;
     cout << "                                                                                                 ||           .______________________________.        ||" << endl;
     cout << "                                                                                                 ||               -WELCOME TO fluentCheck-            ||" << endl;
     cout << "                                                                                                 ||           .------------------------------.        ||" << endl;
+    setColor(2);
     cout << "                                                                                                 [=====================================================]" << endl;
     cout << "                                                                                                 ||                .___________________.              ||" << endl;
     cout << "                                                                                                 ||                  1. Start a Test                  ||" << endl;
     cout << "                                                                                                 ||                  2. View your scores              ||" << endl;
     cout << "                                                                                                 ||                  3. Quit                          ||" << endl;
     cout << "                                                                                                 ||                 .-----------------.               ||" << endl;
+    setColor(4);
     cout << "                                                                                                 [=====================================================]" << endl;
     cout << "                                                                                                 ||          .________________________________.       ||" << endl;
     cout << "                                                                                                 ||            Please enter your choice (1-3)         ||" << endl;
@@ -56,6 +70,7 @@ void MainMenu() {
 
     switch (mainChoice) {
     case 1:
+        setColor(15);
         cout << "                                                                                              [@]===================================================[@]" << endl;
         cout << "                                                                                              ||         .__________________________________.        ||" << endl;
         cout << "                                                                                              ||                --- Start A Test ---                 ||" << endl;
@@ -70,6 +85,7 @@ void MainMenu() {
         cout << "                                                                                              ||      spelling, tenses, correct word usage, and      ||" << endl;
         cout << "                                                                                              ||         more. Only multiple-choice questions.       ||" << endl;
         cout << "                                                                                              ||                                                     ||" << endl;
+        setColor(2);
         cout << "                                                                                              ||            2. Start Intermediate Test:              ||" << endl;
         cout << "                                                                                              ||             (Recommended B1-B2 level)               ||" << endl;
         cout << "                                                                                              ||         ----------------------------------          ||" << endl;
@@ -79,6 +95,7 @@ void MainMenu() {
         cout << "                                                                                              ||     forming, articles, and more. Mix of MCQs and    ||" << endl;
         cout << "                                                                                              ||                   open questions.                   ||" << endl;
         cout << "                                                                                              ||                                                     ||" << endl;
+        setColor(4);
         cout << "                                                                                              ||               3. Start Advanced Test:               ||" << endl;
         cout << "                                                                                              ||              (Recommended C1-C2 level)              ||" << endl;
         cout << "                                                                                              ||          ----------------------------------         ||" << endl;

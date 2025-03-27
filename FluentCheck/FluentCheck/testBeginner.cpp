@@ -6,11 +6,21 @@
 #include <iomanip>
 #include <sstream>
 #include "scores.h"
+#include <conio.h>
+#include <Windows.h>
+
     using namespace std;
+
+    void sColor(int textColor) {
+        HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+        SetConsoleTextAttribute(hConsole, textColor);
+    }
 
     void beginnerTest() {
         const int NUM_QUESTIONS = 50;
         const int NUM_SELECTED = 25;
+
+        sColor(15);
 
         string questions[NUM_QUESTIONS] = {
             "Fill in the blank: I ______ a student.                                                        ||",
@@ -245,4 +255,4 @@
             outFile << score << endl;
             outFile.close();
         }
-    }
+}

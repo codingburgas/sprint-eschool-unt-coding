@@ -1,6 +1,13 @@
 #include "scores.h"
 #include <iostream>
 #include <fstream>
+#include <conio.h>
+#include <Windows.h>
+
+void cColor(int textColor) {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(hConsole, textColor);
+}
 
 // Function to convert points to Bulgarian grade system
 int getBulgarianGrade(int points) {
@@ -61,6 +68,7 @@ void findTopScores(int scores[], int count, int topScores[]) {
 
 // Function to display top scores for the Beginner Test
 void displayTopScoresBeginner() {
+    cColor(15);
     int scores[100], count;
     int topScores[3];
     readScores("BeginnerTestDB.txt", scores, count);
@@ -80,6 +88,7 @@ void displayTopScoresBeginner() {
 
 // Function to display top scores for the Intermediate Test
 void displayTopScoresIntermediate() {
+    cColor(2);
     int scores[100], count;
     int topScores[3];
     readScores("intermediateTestDB.txt", scores, count);
@@ -99,6 +108,7 @@ void displayTopScoresIntermediate() {
 
 // Function to display top scores for the Advanced Test
 void displayTopScoresAdvanced() {
+    cColor(4);
     int scores[100], count;
     int topScores[3];
     readScores("advancedTestDB.txt", scores, count);

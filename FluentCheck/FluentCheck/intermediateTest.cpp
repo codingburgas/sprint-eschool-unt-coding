@@ -4,7 +4,16 @@
 #include <cstdlib>
 #include <ctime>
 #include "scores.h"
+#include <conio.h>
+#include <Windows.h>
+
 using namespace std;
+
+void color(int textColor) {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(hConsole, textColor);
+}
+
 
 // Function to determine if a question requires multiple-choice options 
 bool requiresMultipleChoice(string question) {
@@ -28,7 +37,9 @@ bool requiresMultipleChoice(string question) {
     return false;
 }
 // Function to conduct an intermediate-level English test
+
 void intermediateTest() {
+    color(2);
     const int NUM_QUESTIONS = 50;
     const int NUM_SELECTED = 25;
     string questions[NUM_QUESTIONS] = {
